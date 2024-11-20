@@ -1,0 +1,107 @@
+/* General styles */
+body {
+    background-color: #eeede1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    width: 900px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Left Panel */
+.left-panel {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.photo-panel img {
+    width: 100%;
+    height: auto;
+}
+
+.text-content {
+    padding: 20px;
+}
+
+.text-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-content h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.about-me, .contact-info {
+    margin-bottom: 20px;
+}
+
+.nccu-icon img {
+    width: 100px;
+    margin-top: 50px;
+}
+
+/* Right Panel */
+.right-panel {
+    width: 540px;
+    padding: 20px;
+    display: flex;
+     flex-direction: column;
+    background-color: white;
+}
+
+.right-panel h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education ul li {
+    margin-bottom: 10px;
+}
+
+.homework-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.homework-list a {
+    text-decoration: none;
+    color: blue;
+}
+
+.favorite-music .albums {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.favorite-music .albums img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.note {
+    font-size: 0.8em;
+    color: gray;
+}
+
